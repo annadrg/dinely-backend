@@ -11,10 +11,22 @@ module.exports = {
       restaurantId: {
         type: Sequelize.INTEGER,
         allowNull: false,
+        references: {
+          model: "restaurants",
+          key: "id",
+        },
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE",
       },
       tagId: {
         type: Sequelize.INTEGER,
         allowNull: false,
+        references: {
+          model: "tags",
+          key: "id",
+        },
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE",
       },
       createdAt: {
         allowNull: false,
