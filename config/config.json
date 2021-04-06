@@ -1,0 +1,21 @@
+{
+  "development": {
+    "url": "postgres://bloasqls:1AH7o13vSfCUUBgEI6mITSvXJ2rDoyaY@hattie.db.elephantsql.com:5432/bloasqls",
+    "dialect": "postgres",
+    "operatorsAliases": "0"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
