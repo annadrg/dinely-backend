@@ -14,7 +14,7 @@ module.exports = {
       },
       color: {
         type: Sequelize.STRING,
-        defaultValue: "#ffffff",
+        defaultValue: "#000000",
       },
       userId: {
         type: Sequelize.INTEGER,

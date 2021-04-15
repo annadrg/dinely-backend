@@ -18,7 +18,7 @@ module.exports = (sequelize, DataTypes) => {
   tag.init(
     {
       name: { type: DataTypes.STRING, allowNull: false },
-      color: { type: DataTypes.STRING, defaultValue: "#ffffff" },
+      color: { type: DataTypes.STRING, defaultValue: "#000000" },
       userId: { type: DataTypes.INTEGER, allowNull: false },
     },
     {
